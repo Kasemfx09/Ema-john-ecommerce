@@ -1,0 +1,28 @@
+.header{
+     background-color: #1C2B35;     
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px 145px ;
+}
+img{
+     width: 175px;
+}
+.header .nav ul {
+     display: flex;
+     flex-direction: row;
+     gap: 30px;
+}
+.header .nav ul li{
+     list-style-type: none;
+}
+.header .nav ul li a{
+     text-decoration: none;
+     font-size: 17px;
+     color: #FFFFFF;
+     transition: .5s;
+}
+.header .nav ul li a:hover{
+     color:chocolate;
+}
