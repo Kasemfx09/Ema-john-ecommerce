@@ -1,12 +1,10 @@
-.product-name{
-     color: red;
-}
-.product-carts{
+.products{
+     position: relative;
      border: 2px solid #c2c0c0;
      padding: 10px;
      border-radius: 10px;
-     position: relative;
 }
+
 .btn-cart{
      margin-top: 45px;
 }
