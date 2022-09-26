@@ -5,6 +5,10 @@
      justify-content: space-between;
      align-items: center;
      padding: 10px 145px ;
+     position: sticky;
+     top: 0;
+     z-index: 999;
+     
 }
 img{
      width: 175px;

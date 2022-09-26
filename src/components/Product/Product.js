@@ -11,10 +11,10 @@ const Product = (props) => {
          <div className="products">
                <img className="product-photo" src={img} alt="" />
                <div className="product-carts"> 
-                    <h2>Name: {name} </h2>
-                    <h2>Seller: {seller} </h2>
-                    <h2>Price: ${price} </h2>
-                    <h2>Ratings: {ratings} Stars</h2>
+                   <p> <span className="product-name">Name:</span> {name} </p>
+                    <p> <span className="product-name">Seller:</span>  {seller} </p>
+                    <p><span className="product-name">Price:</span> ${price} </p>
+                    <p><span className="product-name">Ratings:</span> {ratings} Stars</p>
                </div>
                <div className="btn-cart">
                     <button>Add to Carts</button> 

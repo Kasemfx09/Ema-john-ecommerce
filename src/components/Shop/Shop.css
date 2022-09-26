@@ -10,12 +10,10 @@
      display: grid;
      grid-template-columns: repeat(3, 1fr);
      grid-gap: 35px;
-     margin-top: 100px;
+     margin-top: 70px;
      padding: 30px;
      line-height: 25px;
-    
-     
-    
+      
 }
 
 .product-photo{
@@ -27,6 +25,10 @@
      background-color: #FFE0B3;
      padding: 15px;
      margin-left: 25px;
+     position: sticky;
+     top: 0;
+     right: 0;
+     
     
 }
 .order-content h2{

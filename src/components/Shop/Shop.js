@@ -29,9 +29,15 @@ const Shop = () => {
                     </div> 
                                      
                </div>
-               <div className='order-content'>
+               <div className="order-content">
                     <h2>Order Summary </h2>
                     <p>Select Items: 5</p>
+                    <p>Total Price: 5</p>
+                    <p>Total Shipping charge: 5</p>
+                    <p>Tax: 5</p>
+                    <p>Grand Total: $5</p>
+                    <button>Clear Cart</button>
+                    <button>Review Order</button>
                </div>
           </div>
           
