@@ -24,7 +24,8 @@
     
 }
 .btn-cart button:hover{
-     background-color: #FF9900;
+     color: #fff;
+    
 }
 .product-name{
      font-weight: 700;

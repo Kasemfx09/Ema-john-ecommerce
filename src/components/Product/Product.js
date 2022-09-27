@@ -8,7 +8,7 @@ const Product = (props) => {
      // const {handleAddToCart}=props;
      const {name, img, seller, price, ratings} = props.product;
      
-    console.log(props);
+//     console.log(props);
      
      return (
           

@@ -27,10 +27,35 @@
      margin-left: 25px;
      position: sticky;
      top: 0;
-     right: 0;
+    
      
     
 }
 .order-content h2{
      text-align: center;
+}
+.cart-btn{
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     padding-top: 20px;
+}
+.cart-btn button{
+     padding: 10px 0;
+     background-color: coral;
+     border-radius: 5px;
+     border: none;
+     color: #FFFFFF;
+     font-size: 17px;
+     cursor: pointer;
+}
+.grand-total{
+     font-weight: 700;
+     font-size: 20px;
+}
+.cart-btn button:nth-child(1){
+     background-color: #f33607;
+}
+.cart-btn button:nth-child(2){
+     background-color: #FF9900;
 }
